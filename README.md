@@ -38,15 +38,20 @@ Order
 ├── removeItem()
 └── total()
 
+------------------------------
+
 OrderItem
 ├── quantity : Integer
 ├── price : Double
 └── subTotal()
 
+-------------------------------
+
 Product
 ├── name : String
 └── price : Double
 
+--------------------------------
 Client
 ├── name : String
 ├── email : String
@@ -55,7 +60,7 @@ Client
 OrderStatus (enum)
 
 
----
+-----------------------------
 
 ##  Tecnologias utilizadas
 - **Java 17+**
@@ -65,7 +70,7 @@ OrderStatus (enum)
 ---
 
 ##  Como executar o projeto
-1. Clone este repositório- git clone https://github.com/bbmmegg-wq/NOME_DO_REPOSITORIO.git
+1. Clone este repositório- git clone https://github.com/bbmmegg-wq/Java_Pedidos.git
 2. Abra o projeto na sua IDE preferida.
 3. Rode a classe principal 
 
